@@ -1,22 +1,36 @@
 
-const numberOfFilms = prompt("How many movies did you see?", " ");
-//console.log(numberOfFilms);
 
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
+if (4==9) {
+    console.log("ok!");
+} else {
+    console.log("Error");
+}
 
-};
 
-const filmFirst = prompt("What movie did you see the last time?", ""),
-      filmReview1 = prompt("How do you rade it?", ""),
-      filmSecond = prompt("What movie did you see the last time?", ""),
-      filmReview2 = prompt("How do you rade it?", "");
 
-personalMovieDB.movies[filmFirst] = filmReview1;
-personalMovieDB.movies[filmSecond] = filmReview2;
+//if (num < 49) {
+    //console.log('error');
+//} else if (num > 100) {
+    //console.log('too much');
+//} else {
+    //console.log('ok!');
+//}
 
-console.log(personalMovieDB);
+//(num == 50) ? console.log('ok!') : console.log('error');
+
+const num = 101;
+
+switch (num) {
+    case 49:
+        console.log('Not right');
+        break;
+    case 100:
+        console.log('Not right');
+        break;
+    case 50:
+        console.log('You right god demet!');
+        break;
+    default:
+        console.log('Not this time...');
+        break;    
+}
