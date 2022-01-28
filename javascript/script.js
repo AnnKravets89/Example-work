@@ -1,36 +1,31 @@
+let num = 50;
 
-
-if (4==9) {
-    console.log("ok!");
-} else {
-    console.log("Error");
+while (num <= 55) {
+   console.log(num);
+   num++;
 }
 
+do {
+  console.log(num);
+    num++;
+}
+while (num < 55);
 
+for (let i = 1; i < 8; i++) {
+    console.log(i);
+    
+}
 
-//if (num < 49) {
-    //console.log('error');
-//} else if (num > 100) {
-    //console.log('too much');
-//} else {
-    //console.log('ok!');
-//}
-
-//(num == 50) ? console.log('ok!') : console.log('error');
-
-const num = 101;
-
-switch (num) {
-    case 49:
-        console.log('Not right');
+for ( let i = 1; i < 8; i++) {
+    if (i === 6) {
         break;
-    case 100:
-        console.log('Not right');
-        break;
-    case 50:
-        console.log('You right god demet!');
-        break;
-    default:
-        console.log('Not this time...');
-        break;    
+    }
+    console.log(i);
+}
+
+for (let i = 1; i < 10; i++) {
+    if (i === 6) {
+        continue;
+    }
+    console.log(i);
 }
