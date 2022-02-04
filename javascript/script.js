@@ -1,25 +1,23 @@
-let num = 20;
+const str = 'test';
 
-function showFirstMessage(text) {
-    console.log(text);
-    num = 10;
-}
-showFirstMessage('Hello World!');
-console.log(num);
+console.log(str.toUpperCase());
+console.log(str.toLowerCase());
+console.log(str);
 
-function calc(a, b) {
-    return (a + b);
-}
-console.log(calc(4, 29));
+const fruit = 'Some fruit';
 
-function ret() {
-    let num = 50;
-    return num;
-}
-const anotherNum = ret();
-console.log(anotherNum);
+console.log(fruit.indexOf("fruit"));
 
-const logger = function() {
-    console.log('Hello');
-};
-logger();
+const logg = 'Hello world!';
+
+console.log(logg.slice(0, 5));
+console.log(logg.substring(0, 5));
+console.log(logg.substr(0, 5));
+
+const num = 12.2;
+console.log(Math.round(num));
+
+const test = "12.2px";
+console.log(parseInt(test));
+console.log(parseFloat(test));
+
