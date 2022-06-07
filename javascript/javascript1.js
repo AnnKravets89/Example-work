@@ -1,23 +1,14 @@
-const numberOfFilms = prompt("How many movies did you see?", " ");
-//console.log(numberOfFilms);
+const a = 5;
 
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
-
-};
-
-
-
-for (i = 0; i < 2; i++) {
-    const filmFirst = prompt("What movie did you see the last time?", ""),
-          filmReview1 = prompt("How do you rade it?", "");
-
-      personalMovieDB.movies[filmFirst] = filmReview1;
+function myFn() {
+  function innerFn() {
+    console.log(a);
+  }
+  innerFn();
 }
 
-console.log(personalMovieDB); 
+myFn();
+
+
+
 
